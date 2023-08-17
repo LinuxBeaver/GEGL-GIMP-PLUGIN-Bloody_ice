@@ -1,5 +1,7 @@
 Blood or Ice Text. A Gegl / Gimp Plugin that renders Blood or Ice Text. This plugin is very resource intensive and may not 
-work well on low spec machines.
+work well on low spec machines. Go here to download Windows and Linux binaries with source code provided.
+
+https://github.com/LinuxBeaver/Bloody_Ice_Gimp_Plugin/releases/tag/Bloody_Ice_Gimp
 
 ![image preview](preview.png)
 
