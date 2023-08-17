@@ -1,7 +1,9 @@
 ## About this Gimp Plugin
 Blood or Ice Text. A GEGL Gimp Plugin that renders Blood or Ice Text. This plugin is very resource intensive and may not 
-work well on low spec machines. Go here to download Windows and Linux binaries with source code provided.
+work well on low spec machines. After installing this plugin restart Gimp and go to GEGL Operations to find it. If you
+are using Gimp 2.99.16 or Gimp 3 (in future) this plugin will appear in the menu under Filters>Text Styling.
 
+Go here to download Windows and Linux binaries with source code provided.
 https://github.com/LinuxBeaver/Bloody_Ice_Gimp_Plugin/releases/tag/Bloody_Ice_Gimp
 
 ![image preview](preview.png)
