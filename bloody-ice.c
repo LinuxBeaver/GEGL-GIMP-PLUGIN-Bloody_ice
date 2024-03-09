@@ -174,11 +174,11 @@ overlay3 = gegl_node_new_child (gegl,
                                   NULL);
 
   gegl_node_link_many (input, sizecontrol, syntax1, idref1, overlay1, nr, idref2, overlay2, idref3, overlay3, syntax2, huerotation, output, NULL);
-  gegl_node_connect_from (overlay1, "aux", oilify1, "output");
+  gegl_node_connect (overlay1, "aux", oilify1, "output");
   gegl_node_link_many (idref1, wind1, oilify1, NULL);
-  gegl_node_connect_from (overlay2, "aux", softglow1, "output");
+  gegl_node_connect (overlay2, "aux", softglow1, "output");
   gegl_node_link_many (idref2, wind2, oilify2, softglow1, NULL);
-  gegl_node_connect_from (overlay3, "aux", softglow2, "output");
+  gegl_node_connect (overlay3, "aux", softglow2, "output");
   gegl_node_link_many (idref3, wind3, oilify3, softglow2, NULL);
 
   gegl_operation_meta_redirect (operation, "icicle1",  wind1, "strength");
